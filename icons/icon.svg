@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- MatWerk knowledge graph: a body-centred-cubic unit cell -->
+  <!-- crystal lattice (materials science) that is also a node/edge graph -->
+  <g stroke="#2a78d6" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- front square -->
+    <path d="M13 24 L43 24 L43 54 L13 54 Z"/>
+    <!-- back square -->
+    <path d="M21 12 L51 12 L51 42 L21 42 Z"/>
+    <!-- depth edges -->
+    <line x1="13" y1="24" x2="21" y2="12"/>
+    <line x1="43" y1="24" x2="51" y2="12"/>
+    <line x1="43" y1="54" x2="51" y2="42"/>
+    <line x1="13" y1="54" x2="21" y2="42"/>
+  </g>
+  <!-- bonds from body centre to corners -->
+  <g stroke="#9bb6d8" stroke-width="2" stroke-linecap="round">
+    <line x1="32" y1="33" x2="13" y2="24"/>
+    <line x1="32" y1="33" x2="43" y2="24"/>
+    <line x1="32" y1="33" x2="43" y2="54"/>
+    <line x1="32" y1="33" x2="13" y2="54"/>
+    <line x1="32" y1="33" x2="21" y2="12"/>
+    <line x1="32" y1="33" x2="51" y2="12"/>
+    <line x1="32" y1="33" x2="51" y2="42"/>
+    <line x1="32" y1="33" x2="21" y2="42"/>
+  </g>
+  <!-- corner atoms (graph nodes) -->
+  <g fill="#2a78d6">
+    <circle cx="13" cy="24" r="5"/>
+    <circle cx="43" cy="24" r="5"/>
+    <circle cx="43" cy="54" r="5"/>
+    <circle cx="13" cy="54" r="5"/>
+    <circle cx="21" cy="12" r="5"/>
+    <circle cx="51" cy="12" r="5"/>
+    <circle cx="51" cy="42" r="5"/>
+    <circle cx="21" cy="42" r="5"/>
+  </g>
+  <!-- body-centred atom -->
+  <circle cx="32" cy="33" r="7.5" fill="#eb6834"/>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "title": "NFDI-MatWerk Knowledge Graph",
+  "endpoint": "https://nfdi.fiz-karlsruhe.de/matwerk/sparql",
+  "namespaces_file": "data/namespaces.matwerk.json",
+  "graph_short_prefix": "https://nfdi.fiz-karlsruhe.de/matwerk/",
+  "excluded_graphs": [
+    "http://www.openlinksw.com/schemas/virtrdf#",
+    "http://localhost:8890/DAV/",
+    "http://localhost:8890/DAV",
+    "http://www.w3.org/2002/07/owl#",
+    "http://www.w3.org/ns/ldp#",
+    "urn:core:services:sparql",
+    "urn:activitystreams-owl:map"
+  ],
+  "label_lang_preference": ["en", null, "de"],
+  "part_of_predicate": "http://purl.obolibrary.org/obo/BFO_0000050",
+  "has_part_predicate": "http://purl.obolibrary.org/obo/BFO_0000051",
+  "impressum_url": "https://www.fiz-karlsruhe.de/en/impressum",
+  "impressum_label": "Imprint"
+}
